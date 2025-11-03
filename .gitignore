@@ -1,0 +1,32 @@
+# --- Python cache & environment ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.venv/
+venv/
+.env
+
+# --- Jupyter notebooks checkpoints ---
+.ipynb_checkpoints/
+
+# --- Data files (raw & processed) ---
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.parquet
+
+# Keep empty data directory structure
+!data/.gitkeep
+
+# --- Model artifacts ---
+models/*.pkl
+models/*.joblib
+models/*.sav
+
+# --- OS / IDE files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
